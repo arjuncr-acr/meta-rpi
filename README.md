@@ -7,9 +7,11 @@ git clone git://git.yoctoproject.org/poky -b scarthgap
 
 cd poky
 
-git clone git://git.yoctoproject.org/meta-raspberrypi -b scarthgap
+git clone git://git.yoctoproject.org/meta-raspberrypi    -b scarthgap
 
 git clone https://git.openembedded.org/meta-openembedded -b scarthgap
+
+git clone https://github.com/arjuncr-acr/meta-rpi        -b scarthgap
 
 TEMPLATECONF=meta-rpi/conf/templates/default . oe-init-build-env
 
