@@ -3,15 +3,15 @@ meta layer for customized rpi image
 
 # Steps to Build
 
-git clone https://git.yoctoproject.org/poky -b scarthgap 
+git clone https://git.yoctoproject.org/poky -b walnascar
 
 cd poky
 
-git clone https://git.yoctoproject.org/meta-raspberrypi -b scarthgap
+git clone https://git.yoctoproject.org/meta-raspberrypi -b walnascar
 
-git clone https://git.openembedded.org/meta-openembedded -b scarthgap
+git clone https://git.openembedded.org/meta-openembedded -b walnascar
 
-git clone https://github.com/arjuncr-acr/meta-rpi -b scarthgap
+git clone https://github.com/arjuncr-acr/meta-rpi -b walnascar
 
 TEMPLATECONF=meta-rpi/conf/templates/default . oe-init-build-env
 
