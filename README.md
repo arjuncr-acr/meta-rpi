@@ -11,7 +11,7 @@ git clone https://git.yoctoproject.org/meta-raspberrypi -b walnascar
 
 git clone https://git.openembedded.org/meta-openembedded -b walnascar
 
-git clone https://github.com/arjuncr-acr/meta-rpi -b walnascar
+git clone https://github.com/arjuncr-acr/meta-rpi
 
 TEMPLATECONF=meta-rpi/conf/templates/default . oe-init-build-env
 
